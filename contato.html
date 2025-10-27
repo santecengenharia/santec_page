@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - SANTEC Engenharia e Serviços</title>
+    <meta name="description" content="Entre em contato com a SANTEC. Solicite orçamentos e tire suas dúvidas sobre nossos serviços de engenharia.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="./images/santec_logo.png" alt="SANTEC - Engenharia e Serviços" style="height: 50px; width: auto;">
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sobre.html" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="servicos.html" class="nav__link">Serviços</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contato.html" class="nav__link active-link">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__actions">
+                <a href="tel:+5563992634000" class="nav__phone">
+                    <i class="fas fa-phone"></i>
+                    (63) 99263-4000
+                </a>
+                                <a href="tel:+5591980332468" class="nav__phone nav__phone--secondary">
+                    <i class="fas fa-phone"></i>
+                    (91) 98033-2468
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content">
+                    <h1>Entre em Contato</h1>
+                    <p>Vamos começar seu projeto hoje mesmo</p>
+                    <nav class="breadcrumb">
+                        <a href="index.html">Home</a>
+                        <span>/</span>
+                        <span>Contato</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section">
+            <div class="container">
+                <div class="contact__container">
+                    <!-- Contact Info -->
+                    <div class="contact__info">
+                        <h2>Fale Conosco</h2>
+                        <p>Estamos prontos para atender você e transformar suas ideias em realidade. Entre em contato e solicite seu orçamento.</p>
+                        
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    
+                                    <h4>Telefone</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="tel:+5563992634000" class="contact__link">(63) 99263-4000</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+5591980332468" class="contact__link">(91) 98033-2468</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>E-mail</h4>
+                                    <p>santecengcivil@gmail.com</p>
+                                    <a href="mailto:santecengcivil@gmail.com" class="contact__link">Enviar e-mail</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4>Endereço</h4>
+                                    <p>Tavessa Perebebuí – n° 2185<br>
+                                     Bairro Marco<br>
+                                    Belém – PA</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4>Horário de Atendimento</h4>
+                                    <p>Segunda a Sexta: 8h às 18h<br>
+                                    Sábado: 8h às 12h</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Contact Buttons -->
+                        <div class="quick__contact">
+                            <a href="https://wa.me/5563992634000" class="quick__btn whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                            <a href="tel:+5591980332468" class="quick__btn phone">
+                                <i class="fas fa-phone"></i>
+                                Ligar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact__form-container">
+                        <h3>Solicite seu Orçamento</h3>
+                        <p>Preencha o formulário abaixo e entraremos em contato em breve.</p>
+                        <form 
+                            id="contact-form"
+                            action="https://formspree.io/f/mqayzrkv" 
+                            method="POST" 
+                            class="contact-form"
+                            >
+                            <div class="form__group">
+                                <input type="text" id="name" name="name" class="form__input" placeholder=" " required>
+                                <label for="name" class="form__label">Nome Completo *</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="email" id="email" name="email" class="form__input" placeholder=" " required>
+                                <label for="email" class="form__label">E-mail *</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="tel" id="phone" name="telefone" class="form__input" placeholder=" " required>
+                                <label for="phone" class="form__label">Telefone *</label>
+                            </div>
+
+                            <div class="form__group">
+                                <input type="text" id="empresa" name="empresa" class="form__input" placeholder=" ">
+                                <label for="empresa" class="form__label">Empresa</label>
+                            </div>
+
+                            <div class="form__group">
+                                <textarea id="message" name="descricao_do_projeto" class="form__input form__textarea" placeholder=" " required></textarea>
+                                <label for="message" class="form__label">Descrição do Projeto *</label>
+                            </div>
+
+                            <!-- Campo oculto opcional para evitar SPAM -->
+                            <input type="hidden" name="_subject" value="Novo contato do site">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <button type="submit" class="btn btn--primary btn--full">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Solicitação
+                            </button>
+                             <p id="form-message"></p>
+                        </form>
+
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title__white">Nossa Localização</h2>
+                    <p class="section__subtitle__white">Visite nosso escritório em Belém-PA</p>
+                </div>
+                <div class="map__container">
+                    <div class="map__embed">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.8122208013785!2d-48.457605135973786!3d-1.426975230717104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48b8b42636191%3A0x28a6a5aa0192ed87!2sTv.%20Perebebu%C3%AD%2C%202185%20-%20Pedreira%2C%20Bel%C3%A9m%20-%20PA%2C%2066095-661!5e0!3m2!1spt-BR!2sbr!4v1761364600275!5m2!1spt-BR!2sbr"
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <div class="map__info">
+                        <h3>Como Chegar</h3>
+                        <div class="map__details">
+                            <div class="map__item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Endereço Completo</h4>
+                                    <p>Tavessa Perebebuí – n° 2185<br>
+                                     Bairro Marco<br>
+                                    Belém – PA</p>
+                                </div>
+                            </div>
+                            
+                            <div class="map__item">
+                                <i class="fas fa-bus"></i>
+                                <div>
+                                    <h4>Transporte Público</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="https://maps.app.goo.gl/HVmbHhsrdv3trBww5" target="_blank" class="btn btn--secondary--black">
+                            <i class="fas fa-directions"></i>
+                            Ver no Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Perguntas Frequentes</h2>
+                    <p class="section__subtitle">Tire suas principais dúvidas sobre nossos serviços</p>
+                </div>
+                
+                <div class="faq__container">
+                    <div class="faq__item">
+                        <div class="faq__question" onclick="toggleFaq(this)">
+                            <h4>Como solicitar um orçamento?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Você pode solicitar um orçamento através do formulário desta página, por telefone ou WhatsApp. Nossa equipe entrará em contato para agendar uma visita técnica.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__question" onclick="toggleFaq(this)">
+                            <h4>Qual o prazo para início das obras?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>O prazo varia conforme a complexidade do projeto e a disponibilidade da equipe, podendo ser definido após análise das demandas e do cronograma.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <div class="faq__question" onclick="toggleFaq(this)">
+                            <h4>Vocês trabalham em outras cidades?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Sim, atendemos todo o território nacional. Para projetos fora de Palmas-TO e Belém-PA, avaliamos cada caso individualmente considerando logística e viabilidade.</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="faq__item">
+                        <div class="faq__question" onclick="toggleFaq(this)">
+                            <h4>Como é feito o acompanhamento da obra?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq__answer">
+                            <p>O acompanhamento da obra é feito por meio de visitas periódicas, verificando o andamento, a qualidade e o cumprimento do projeto. E disponibilizando os dados ao cliente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <h3>SANTEC</h3>
+                        <span>Engenharia e Serviços</span>
+                    </div>
+                    <p>CNPJ: 55.983.813/0001-30 Inscrição Estadual: 29.559.407-1</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Páginas</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html">Obras Civis</a></li>
+                        <li><a href="servicos.html">Saneamento</a></li>
+                        <li><a href="servicos.html">Obras Geotécnicas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (63) 99263-4000</li>
+                        <li><i class="fas fa-phone"></i> (91) 98033-2468</li>
+                        <li><i class="fas fa-envelope"></i> santecengcivil@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Palmas - TO</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Belém - PA</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 SANTEC - Engenharia e Serviços. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
+

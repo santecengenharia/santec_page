@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - SANTEC Engenharia e Serviços</title>
+    <meta name="description" content="Conheça os projetos executados pela SANTEC: construções, drenagens, reformas e obras de infraestrutura.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="./images/santec_logo.png" alt="SANTEC - Engenharia e Serviços" style="height: 50px; width: auto;">
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="sobre.html" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="servicos.html" class="nav__link">Serviços</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contato.html" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__actions">
+                <a href="tel:+5563992634000" class="nav__phone">
+                    <i class="fas fa-phone"></i>
+                    (63) 99263-4000
+                </a>
+                <a href="tel:+5591980332468" class="nav__phone nav__phone--secondary">
+                    <i class="fas fa-phone"></i>
+                    (91) 98033-2468
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content">
+                    <h1>Nossos Projetos</h1>
+                    <p>Conheça alguns de nossos trabalhos realizados com excelência</p>
+                    <nav class="breadcrumb">
+                        <a href="index.html">Home</a>
+                        <span>/</span>
+                        <span>Projetos</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Filters -->
+        <section class="project-filters section">
+            <div class="container">
+                <div class="filters__container">
+                    <button class="filter__btn active" data-filter="all">Todos</button>
+                    <button class="filter__btn" data-filter="obras-civis">Obras Civis</button>
+                    <button class="filter__btn" data-filter="saneamento">Saneamento</button>
+                    <button class="filter__btn" data-filter="obras-geotecnicas">Obras Geotécnicas</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Gallery -->
+        <section class="projects section">
+            <div class="container">
+                <div class="projects__container">
+                    <!-- Projeto 1 - Construção -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Edifício Comercial">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2 - Saneamento -->
+                    <div class="project__card" data-category="saneamento">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sistema de Drenagem">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 - Reforma -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Reforma Residencial">
+                            
+                        </div>
+                    </div>
+
+                    <!-- Projeto 4 - Pavimentação -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pavimentação">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 5 - Obras Geotécnicas -->
+                    <div class="project__card" data-category="obras-geotecnicas">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fundação">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 6 - Demolição -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Demolição">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 7 - Construção -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Conjunto Residencial">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 8 - Reforma -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Reforma Comercial">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 9 - Saneamento -->
+                    <div class="project__card" data-category="saneamento">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1569163139394-de4e4f43e4e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Drenagem Rural">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 10 - Obras Geotécnicas -->
+                    <div class="project__card" data-category="obras-geotecnicas">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1502691478147-386050b73062?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Obras de Contenção">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 11 - Ponte -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1533090420-f5a6b0c2a2b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Construção de Ponte">
+                        </div>
+                    </div>
+
+                    <!-- Projeto 12 - Reforma -->
+                    <div class="project__card" data-category="obras-civis">
+                        <div class="project__image">
+                            <img src="https://images.unsplash.com/photo-1517840133-e9622d10f328?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Reforma de Escola Pública">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__content">
+                    <h2>Quer seu projeto aqui?</h2>
+                    <p>Entre em contato conosco e vamos transformar sua ideia em realidade. Faça parte da nossa galeria de sucessos.</p>
+                    <a href="contato.html" class="btn btn--primary">Fale Conosco</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__logo">
+                        <h3>SANTEC</h3>
+                        <span>Engenharia e Serviços</span>
+                    </div>
+                    <p>CNPJ: 55.983.813/0001-30 Inscrição Estadual: 29.559.407-1</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Páginas</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="servicos.html">Obras Civis</a></li>
+                        <li><a href="servicos.html">Saneamento</a></li>
+                        <li><a href="servicos.html">Obras Geotécnicas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (63) 99263-4000</li>
+                        <li><i class="fas fa-phone"></i> (91) 98033-2468</li>
+                        <li><i class="fas fa-envelope"></i> santecengcivil@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Palmas - TO</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Belém - PA</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 SANTEC - Engenharia e Serviços. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeServiceModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <div id="projectModal" class="modal">
+        <div class="modal__content">
+            <div class="modal__close">
+                <span class="close-btn" onclick="closeProjectModal()">&times;</span>
+            </div>
+            
+            <div class="modal__header">
+                <h3 id="projectModalTitle"></h2>
+            </div>
+
+            <div class="modal__body">
+                <div id="projectModalContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js">
+        // === FAQ ===
+ document.addEventListener("DOMContentLoaded", function() {
+    const faqItems = document.querySelectorAll(".faq__question");
+    if (faqItems.length > 0) {
+        const faqQuestions = document.querySelectorAll('.faq__question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    const answer = faqItem.querySelector('.faq__answer');
+                    const isActive = question.classList.contains('active');
+                    
+                    // Close all other FAQ items
+                    faqQuestions.forEach(q => {
+                        q.classList.remove('active');
+                        q.parentElement.querySelector('.faq__answer').classList.remove('active');
+                    });
+                    
+                    // Toggle current item
+                    if (!isActive) {
+                        question.classList.add('active');
+                        answer.classList.add('active');
+                    }
+                });
+            });
+    }
+
+ })
+
+    </script>
+</body>
+</html>
+
